@@ -1,0 +1,21 @@
+.dataTables_filter label {
+  width: 50%!important;
+  float: right;
+  margin-top: 5px;
+  input{
+    width: 86%!important;
+
+  }
+}
+.alert .modal {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  display: block;
+  z-index: 1;
+}
+.example-modal .modal {
+  background: transparent !important;
+}

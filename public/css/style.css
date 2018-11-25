@@ -1,0 +1,768 @@
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+p, a {
+  color: #595959;
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  height: 158px;
+  background: #F9F9F9;
+  width: 100%;
+}
+
+.navbar-wrapper nav {
+  position: absolute;
+  z-index: 9999;
+  bottom: 0;
+  background: #00938F;
+  height: 38px;
+  line-height: 38px;
+  width: 100%;
+}
+
+.navbar-wrapper nav .container {
+  padding: 0;
+  width: 1170px;
+}
+
+.navbar-wrapper nav ul.nav {
+  float: right;
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.navbar-wrapper nav li {
+  list-style: none;
+}
+
+.navbar-wrapper nav ul.nav:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 38px;
+  width: 21px;
+  margin-left: -21px;
+  background: url("/widget/layout/Home/mainnav-bg.png");
+  background-repeat: no-repeat;
+  background-position: -200px 50%;
+}
+
+.navbar-wrapper nav ul.nav > li {
+  width: 25%;
+  text-align: center;
+}
+
+.navbar-wrapper nav ul.nav > li {
+  float: left;
+  background: url("/widget/layout/Home/mainnav-bg.png") 100% 0 no-repeat;
+}
+
+.navbar-wrapper nav ul.nav > li.on {
+  background: url("/widget/layout/Home/mainnav-bg.png") 100% 100% no-repeat;
+}
+
+.navbar-wrapper nav ul.nav > li.on:before {
+  color: #fff;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 38px;
+  width: 21px;
+  margin-left: -21px;
+  background: url("/widget/layout/Home/mainnav-bg.png");
+  background-repeat: no-repeat;
+  background-position: -147px 50%;
+}
+
+.navbar-wrapper nav ul.nav li h3 {
+  padding: 0;
+  margin: 0;
+  margin-left: -21px;
+}
+
+.navbar-wrapper nav ul.nav > li > h3 {
+  font-size: 16px;
+  height: 38px;
+  line-height: 38px;
+  color: #fff;
+}
+
+.navbar-wrapper nav ul > li > ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  left: -20px;
+  display: none;
+  width: 100%;
+  opacity: 0.8;
+  background-color: #EBF1F7;
+}
+
+.navbar-wrapper nav ul > li > ul a {
+  color: #555;
+  display: block;
+}
+
+.navbar-wrapper nav ul > li > ul li:hover {
+  background-color: #005198;
+}
+
+.navbar-wrapper nav ul > li > ul li:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-wrapper nav ul > li.on > ul {
+  display: block;
+}
+
+.navbar-wrapper nav ul.nav li {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  width: 1170px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-wrapper > .container > a > img {
+  position: absolute;
+  z-index: 99999;
+}
+
+.navbar-wrapper > .container > p {
+  float: right;
+  margin-top: 20px;
+  color: #afafaf;
+}
+
+.navbar-wrapper > .container > p a {
+  margin-right: 20px;
+  color: #afafaf;
+  font-size: 14px;
+}
+
+.navbar-wrapper > .container > p img {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.clearfix {
+  clear: both;
+  height: 0;
+  display: block;
+  content: "";
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 446px;
+  background-color: #777;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.carousel-indicators .active {
+  background-color: #fc8b05;
+}
+
+.carousel-indicators li {
+  background-color: #B4B4B4;
+  border: 0;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+}
+
+.gray-bg {
+  background: #F9F9F9;
+}
+
+body > footer {
+  width: 100%;
+  background: #00938E;
+  padding-top: 80px;
+  position: relative;
+}
+
+body > footer .row {
+  border-bottom: 1px solid #199d9a;
+  margin-top: 20px;
+}
+
+body > footer .copyright {
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+body > footer h5 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+body > footer p {
+  color: #fff;
+}
+
+body > footer ul {
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+body > footer ul li {
+  list-style: none;
+}
+
+body > footer ul li a, body > footer ul li a:hover {
+  font-size: 12px;
+  color: #fff;
+}
+
+/***********************/
+.hsft .col-md-4 a {
+  display: block;
+  background: #00938F;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+
+.hsft .col-md-4 a:hover {
+  background: #383838;
+  text-decoration: none;
+}
+
+.chanpin ul {
+  padding: 0;
+  margin: 0;
+  background: url("/img/bg-welle.png");
+}
+
+.chanpin ul li {
+  display: inline-block;
+  width: 30%;
+  margin-left: 3%;
+}
+
+.chanpin ul li a {
+  display: block;
+}
+
+.chanpin ul li a img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.chanpin ul li a p {
+  text-align: center;
+}
+
+.chanpin ul li:first-child {
+  margin-left: 0;
+}
+
+.hsft-last {
+  padding-top: 40px;
+}
+
+.hsft-last ul {
+  padding: 0;
+  margin: 0;
+}
+
+.hsft-last ul li {
+  display: inline-block;
+  width: 30%;
+  margin-left: 3%;
+}
+
+.hsft-last ul li h4:before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #00938F;
+  top: 50%;
+}
+
+.hsft-last ul li h4 {
+  position: relative;
+  text-align: center;
+}
+
+.hsft-last ul li h4 i {
+  position: relative;
+  z-index: 99;
+  font-style: normal;
+  background: #F9F9F9;
+  padding: 0 10px;
+}
+
+.hsft-last ul li a {
+  display: block;
+}
+
+.hsft-last ul li a img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.hsft-last ul li a p {
+  text-align: center;
+}
+
+.hsft-last ul li:first-child {
+  margin-left: 0;
+}
+
+.list-style1 {
+  margin: 0;
+  padding: 0;
+}
+
+.list-style1 li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.list-style1 li > a {
+  display: block;
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+.list-style1 li > a p {
+  margin: 0;
+}
+
+.list-style1 li > a > img {
+  width: 20%;
+  vertical-align: middle;
+}
+
+.list-style1 li > a > div {
+  vertical-align: middle;
+  width: 20%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.list-style1 li > a > div h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2;
+  margin: 0;
+  padding-left: 7px;
+}
+
+.list-style1 li > a > div:nth-child(2) {
+  border-right: 1px dashed #ccc;
+  padding-right: 20px;
+  height: 80%;
+}
+
+.list-style1 li > a dl {
+  border: 1px solid #ccc;
+}
+
+.list-style1 li > a dl dd {
+  color: #9C9B9B;
+  padding: 5px 10px;
+}
+
+.list-style1 li > a dl dd:first-child {
+  background: #00938F;
+  color: #fff;
+}
+
+.list-style1 li a:hover {
+  text-decoration: none;
+  border: 2px solid #B9CEE7;
+}
+
+.filter {
+  background-color: #e6e6e6;
+  border: 1px solid #bfbfbf;
+  border-radius: 2px;
+}
+
+.filter > header {
+  position: relative;
+  background: #9C9B9B;
+  color: #fff;
+}
+
+.filter > header h3 {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.filter > header a {
+  position: absolute;
+  top: 5px;
+  right: 9px;
+  display: block;
+  min-width: 60px;
+  height: 27px;
+  padding: 4px 5px 0;
+  border: 1px solid #bfbfbf;
+  border-radius: 2px;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.filter > section ul {
+  margin: 0;
+  padding: 0;
+}
+
+.filter > section ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.filter > section ul li h4 {
+  background: url("/img/line_side.png") left top repeat-x;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 15px 0 7px 0;
+  line-height: 1.3;
+  cursor: pointer;
+}
+
+.filter > section ul li h4 strong {
+  display: block;
+  background-image: url("/img/icon_accordion_small.png");
+  background-repeat: no-repeat;
+  background-position: right 0px;
+}
+
+.filter > section ul li h4.open strong {
+  background-position: right -49px;
+}
+
+.filter .box ul li, .filter .listbox ul li {
+  display: block;
+  margin-bottom: 4px;
+  padding: 3px 5px 2px 30px;
+  background-position: 5px 3px;
+  vertical-align: top;
+  cursor: pointer;
+  color: #004bb1;
+  background: url("/img/block.png") no-repeat 10px center;
+}
+
+.filter .box ul li:hover, .filter .listbox ul li:hover {
+  background-color: #b9cee7;
+}
+
+.filter .box ul li.on, .filter .listbox ul li.on {
+  background: url("/img/b.png") no-repeat 10px center;
+  background-color: #749dcf;
+  color: #fff;
+}
+
+.filter .box.col3 li {
+  width: 30%;
+  display: inline-block;
+}
+
+.filter .listbox {
+  margin: 10px 10px 0;
+  height: 150px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.filter .limit-button {
+  display: block;
+  height: 22px;
+  margin-bottom: 3px;
+  background: url("/img/button_arrow_updown.png") no-repeat center 0;
+}
+
+.filter .limit-button.open {
+  background-position: center -22px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: inherit;
+}
+
+.detail-tabs {
+  border-bottom: 2px solid #00938F;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px 0px;
+}
+
+.detail-tabs li {
+  border: 1px solid #bfbfbf;
+  border-bottom: 0;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.detail-tabs li a {
+  padding: 10px 20px;
+  border: 0 !important;
+  margin-right: 0;
+  border-radius: 0;
+  color: #9C9B9B;
+  font-weight: bold;
+}
+
+.detail-tabs li:first-child {
+  margin-left: 0;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background: #00938F;
+  color: #fff;
+}
+
+.detail-tabs-content {
+  padding-top: 30px;
+}
+
+.band-name {
+  margin: 30px 0;
+  padding: 0;
+}
+
+.band-name li {
+  display: inline-block;
+  margin: 0 10px 20px;
+}
+
+.band-name li a {
+  display: block;
+  background: #E2DDEB;
+  padding: 8px;
+}
+
+.band-name li a:hover {
+  background: #00938f;
+  color: #fff;
+  text-decoration: none;
+}
+
+.band-list {
+  padding: 20px 30px;
+  background: #E2DDEB;
+}
+
+.band-list h4, .band-list p {
+  color: #5D5B5B;
+}
+
+.band-list img {
+  max-width: 100%;
+}
+
+.normal-list li {
+  padding-left: 10px;
+  border-bottom: 1px solid #D2CDCD;
+  padding-bottom: 5px;
+}
+
+.normal-list li a {
+  display: block;
+}
+
+.new-list {
+  padding: 0;
+}
+
+.new-list li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.detail-tabs-content ul, .detail-tabs-content ol {
+  padding: 0;
+}
+
+.detail-tabs-content img {
+  max-width: 100%;
+}
+
+.download-style {
+  margin: 0;
+  padding: 0;
+}
+
+.download-style li {
+  list-style: none;
+  margin-bottom: 20px;
+  display: block;
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+.download-style li p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.download-style li > img {
+  width: 115px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.download-style li > div {
+  vertical-align: middle;
+  width: 20%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.download-style li > div h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2;
+  margin: 0;
+  padding-left: 7px;
+}
+
+.download-style li > div a {
+  color: #005198;
+  line-height: 34px;
+  font-size: 12px;
+}
+
+.download-style li > div:nth-child(2) {
+  border-right: 1px dashed #ccc;
+  padding-right: 20px;
+  height: 80%;
+}
+
+.download-style li dl dd {
+  color: #9C9B9B;
+  padding: 5px 10px;
+}
+
+.download-style li:hover {
+  background: #fff;
+  color: #ff730a;
+}
+
+.wokao h4 {
+  padding: 12px 10px;
+  color: #fff;
+  background: #00938F;
+}
+
+.wokao ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.wokao a {
+  color: #00938F;
+}
+
+#top-search {
+  position: relative;
+}
+
+#top-search img {
+  position: relative;
+  z-index: 99;
+}
+
+#top-search input {
+  position: absolute;
+  height: 36px;
+  width: 0;
+  border: 1px solid #00938F;
+  top: -9px;
+  right: -2px;
+  z-index: 1;
+  opacity: 0;
+}
+
+#massage {
+  position: fixed;
+  right: 0;
+  top: 30%;
+  height: 172px;
+  width: 60px;
+  z-index: 99999;
+}
+
+#massage > div {
+  position: relative;
+}
+
+#massage a {
+  display: block;
+  position: absolute;
+  width: 320px;
+  height: 57px;
+  line-height: 57px;
+  padding-left: 64px;
+  font-size: 20px;
+  border: 1px solid #199d9a;
+}
+
+#massage .tel_phone {
+  background: #fff url("/img/phone.png") no-repeat 10px center;
+  background-size: 40px 40px;
+}
+
+#massage .mess_ico {
+  top: 56px;
+  background: #fff url("/img/message.png") no-repeat 10px center;
+  background-size: 40px 40px;
+}
+
+#massage .qq_ico {
+  top: 112px;
+  background: #fff url("/img/qq.png") no-repeat 10px center;
+  background-size: 40px 40px;
+}
+
+#massage a:hover {
+  text-decoration: none;
+}

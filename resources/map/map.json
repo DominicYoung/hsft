@@ -1,0 +1,578 @@
+{
+    "res": {
+        "page/Admin/admin/edit.blade.php": {
+            "uri": "Admin/admin/edit.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/admin/edit.js"
+            ]
+        },
+        "page/Admin/admin/index.blade.php": {
+            "uri": "Admin/admin/index.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/admin/index.js"
+            ]
+        },
+        "page/Admin/band/edit.blade.php": {
+            "uri": "Admin/band/edit.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/band/edit.js"
+            ]
+        },
+        "page/Admin/band/index.blade.php": {
+            "uri": "Admin/band/index.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/band/index.js"
+            ]
+        },
+        "page/Admin/banner/edit.blade.php": {
+            "uri": "Admin/banner/edit.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/banner/edit.js"
+            ]
+        },
+        "page/Admin/banner/index.blade.php": {
+            "uri": "Admin/banner/index.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/banner/index.js"
+            ]
+        },
+        "page/Admin/Category/add.blade.php": {
+            "uri": "Admin/Category/add.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/band/edit.js"
+            ]
+        },
+        "page/Admin/Category/index.blade.php": {
+            "uri": "Admin/Category/index.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/Category/index.js"
+            ]
+        },
+        "page/Admin/game/edit.blade.php": {
+            "uri": "Admin/game/edit.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/game/edit.js"
+            ]
+        },
+        "page/Admin/game/index.blade.php": {
+            "uri": "Admin/game/index.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/game/index.js"
+            ]
+        },
+        "page/Admin/game/map.blade.php": {
+            "uri": "Admin/game/map.blade.php",
+            "type": "php"
+        },
+        "page/Admin/login/index.blade.php": {
+            "uri": "Admin/login/index.blade.php",
+            "type": "php",
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        },
+        "page/Admin/news/edit.blade.php": {
+            "uri": "Admin/news/edit.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/news/edit.js"
+            ]
+        },
+        "page/Admin/news/index.blade.php": {
+            "uri": "Admin/news/index.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/news/index.js"
+            ]
+        },
+        "page/Admin/system/edit.blade.php": {
+            "uri": "Admin/system/edit.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/system/edit.js"
+            ]
+        },
+        "page/Admin/system/index.blade.php": {
+            "uri": "Admin/system/index.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Admin/system/index.js"
+            ]
+        },
+        "page/Home/article.blade.php": {
+            "uri": "Home/article.blade.php",
+            "type": "php"
+        },
+        "page/Home/band.blade.php": {
+            "uri": "Home/band.blade.php",
+            "type": "php"
+        },
+        "page/Home/bandlist.blade.php": {
+            "uri": "Home/bandlist.blade.php",
+            "type": "php"
+        },
+        "page/Home/detail.blade.php": {
+            "uri": "Home/detail.blade.php",
+            "type": "php"
+        },
+        "page/Home/download.blade.php": {
+            "uri": "Home/download.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Home/index.js"
+            ]
+        },
+        "page/Home/index.blade.php": {
+            "uri": "Home/index.blade.php",
+            "type": "php"
+        },
+        "page/Home/list.blade.php": {
+            "uri": "Home/list.blade.php",
+            "type": "php"
+        },
+        "page/Home/list1.blade.php": {
+            "uri": "Home/list1.blade.php",
+            "type": "php"
+        },
+        "page/Home/list2.blade.php": {
+            "uri": "Home/list2.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Home/index.js"
+            ]
+        },
+        "page/Home/list3.blade.php": {
+            "uri": "Home/list3.blade.php",
+            "type": "php",
+            "deps": [
+                "page/Home/index.js"
+            ]
+        },
+        "page/Home/search.blade.php": {
+            "uri": "Home/search.blade.php",
+            "type": "php"
+        },
+        "widget/layout/Admin/body.blade.php": {
+            "uri": "/widget/layout/Admin/body.blade.php",
+            "type": "php"
+        },
+        "widget/layout/Admin/foot.blade.php": {
+            "uri": "/widget/layout/Admin/foot.blade.php",
+            "type": "php"
+        },
+        "widget/layout/Admin/header.blade.php": {
+            "uri": "/widget/layout/Admin/header.blade.php",
+            "type": "php"
+        },
+        "widget/layout/Home/body.blade.php": {
+            "uri": "/widget/layout/Home/body.blade.php",
+            "type": "php"
+        },
+        "widget/layout/Home/footer.blade.php": {
+            "uri": "/widget/layout/Home/footer.blade.php",
+            "type": "php"
+        },
+        "widget/layout/Home/header.blade.php": {
+            "uri": "/widget/layout/Home/header.blade.php",
+            "type": "php"
+        },
+        "static/lib/datetimepicker/css/bootstrap-datetimepicker.css": {
+            "uri": "/lib/datetimepicker/css/bootstrap-datetimepicker.css",
+            "type": "css"
+        },
+        "page/Admin/admin/edit.js": {
+            "uri": "/page/Admin/admin/edit.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/admin/edit"
+            }
+        },
+        "static/lib/datatables/css/dataTables.bootstrap.css": {
+            "uri": "/lib/datatables/css/dataTables.bootstrap.css",
+            "type": "css"
+        },
+        "page/Admin/admin/index.js": {
+            "uri": "/page/Admin/admin/index.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/admin/index"
+            },
+            "deps": [
+                "static/lib/datatables/js/dataTables.bootstrap.js"
+            ]
+        },
+        "page/Admin/band/edit.js": {
+            "uri": "/page/Admin/band/edit.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/band/edit"
+            },
+            "deps": [
+                "static/lib/plupload/plupload.js",
+                "components/jquery/jquery.js"
+            ]
+        },
+        "page/Admin/band/index.js": {
+            "uri": "/page/Admin/band/index.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/band/index"
+            },
+            "deps": [
+                "static/lib/datatables/js/dataTables.bootstrap.js"
+            ]
+        },
+        "page/Admin/banner/edit.js": {
+            "uri": "/page/Admin/banner/edit.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/banner/edit"
+            },
+            "deps": [
+                "static/lib/plupload/plupload.js",
+                "components/jquery/jquery.js"
+            ]
+        },
+        "page/Admin/banner/index.js": {
+            "uri": "/page/Admin/banner/index.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/banner/index"
+            },
+            "deps": [
+                "static/lib/datatables/js/dataTables.bootstrap.js"
+            ]
+        },
+        "page/Admin/Category/index.js": {
+            "uri": "/page/Admin/Category/index.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/Category/index"
+            },
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        },
+        "page/Admin/game/edit.js": {
+            "uri": "/page/Admin/game/edit.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/game/edit"
+            },
+            "deps": [
+                "static/lib/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js",
+                "components/bootstrap/bootstrap.js"
+            ]
+        },
+        "page/Admin/game/index.js": {
+            "uri": "/page/Admin/game/index.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/game/index"
+            },
+            "deps": [
+                "static/lib/datatables/js/dataTables.bootstrap.js"
+            ]
+        },
+        "static/js/mod.js": {
+            "uri": "/js/mod.js",
+            "type": "js"
+        },
+        "static/lib/bootstrap/css/bootstrap.css": {
+            "uri": "/lib/bootstrap/css/bootstrap.css",
+            "type": "css",
+            "extras": {}
+        },
+        "static/lib/fontawesome/css/font-awesome.css": {
+            "uri": "/lib/fontawesome/css/font-awesome.css",
+            "type": "css"
+        },
+        "static/lib/bootstrap/dist/css/AdminLTE.css": {
+            "uri": "/lib/bootstrap/dist/css/AdminLTE.css",
+            "type": "css"
+        },
+        "static/lib/bootstrap/dist/css/skins/skin-purple.css": {
+            "uri": "/lib/bootstrap/dist/css/skins/skin-purple.css",
+            "type": "css"
+        },
+        "static/css/admin.scss": {
+            "uri": "/css/admin.css",
+            "type": "css"
+        },
+        "components/jquery/jquery.js": {
+            "uri": "/components/jquery/jquery.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/jquery/jquery"
+            }
+        },
+        "page/Admin/news/edit.js": {
+            "uri": "/page/Admin/news/edit.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/news/edit"
+            },
+            "deps": [
+                "static/lib/plupload/plupload.js",
+                "components/jquery/jquery.js"
+            ]
+        },
+        "page/Admin/news/index.js": {
+            "uri": "/page/Admin/news/index.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/news/index"
+            },
+            "deps": [
+                "static/lib/datatables/js/dataTables.bootstrap.js"
+            ]
+        },
+        "page/Admin/system/edit.js": {
+            "uri": "/page/Admin/system/edit.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/system/edit"
+            }
+        },
+        "page/Admin/system/index.js": {
+            "uri": "/page/Admin/system/index.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/Admin/system/index"
+            },
+            "deps": [
+                "static/lib/datatables/js/dataTables.bootstrap.js"
+            ]
+        },
+        "page/Home/index.js": {
+            "uri": "/page/Home/index.js",
+            "type": "js"
+        },
+        "components/bootstrap/css/bootstrap.css": {
+            "uri": "/components/bootstrap/css/bootstrap.css",
+            "type": "css",
+            "extras": {}
+        },
+        "static/css/style.scss": {
+            "uri": "/css/style.css",
+            "type": "css"
+        },
+        "widget/layout/Home/index.js": {
+            "uri": "/widget/layout/Home/index.js",
+            "type": "js"
+        },
+        "static/lib/datatables/js/dataTables.bootstrap.js": {
+            "uri": "/lib/datatables/js/dataTables.bootstrap.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/lib/datatables/js/dataTables.bootstrap"
+            },
+            "deps": [
+                "static/lib/datatables/js/jquery.dataTables.js"
+            ]
+        },
+        "static/lib/plupload/plupload.js": {
+            "uri": "/lib/plupload/plupload.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/lib/plupload/plupload"
+            },
+            "deps": [
+                "static/js/moxie.js"
+            ]
+        },
+        "static/lib/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js": {
+            "uri": "/lib/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/lib/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN"
+            },
+            "deps": [
+                "static/lib/datetimepicker/js/bootstrap-datetimepicker.js"
+            ]
+        },
+        "components/bootstrap/bootstrap.js": {
+            "uri": "/components/bootstrap/bootstrap.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/bootstrap"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/alert.js",
+                "components/bootstrap/button.js",
+                "components/bootstrap/carousel.js",
+                "components/bootstrap/collapse.js",
+                "components/bootstrap/dropdown.js",
+                "components/bootstrap/modal.js",
+                "components/bootstrap/tooltip.js",
+                "components/bootstrap/popover.js",
+                "components/bootstrap/scrollspy.js",
+                "components/bootstrap/tab.js",
+                "components/bootstrap/affix.js"
+            ]
+        },
+        "static/lib/datatables/js/jquery.dataTables.js": {
+            "uri": "/lib/datatables/js/jquery.dataTables.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/lib/datatables/js/jquery.dataTables"
+            },
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        },
+        "static/js/moxie.js": {
+            "uri": "/js/moxie.js",
+            "type": "js"
+        },
+        "static/lib/datetimepicker/js/bootstrap-datetimepicker.js": {
+            "uri": "/lib/datetimepicker/js/bootstrap-datetimepicker.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/lib/datetimepicker/js/bootstrap-datetimepicker"
+            },
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        },
+        "components/bootstrap/alert.js": {
+            "uri": "/components/bootstrap/alert.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/alert"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/transition.js"
+            ]
+        },
+        "components/bootstrap/button.js": {
+            "uri": "/components/bootstrap/button.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/button"
+            },
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        },
+        "components/bootstrap/carousel.js": {
+            "uri": "/components/bootstrap/carousel.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/carousel"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/transition.js"
+            ]
+        },
+        "components/bootstrap/collapse.js": {
+            "uri": "/components/bootstrap/collapse.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/collapse"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/transition.js"
+            ]
+        },
+        "components/bootstrap/dropdown.js": {
+            "uri": "/components/bootstrap/dropdown.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/dropdown"
+            },
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        },
+        "components/bootstrap/modal.js": {
+            "uri": "/components/bootstrap/modal.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/modal"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/transition.js"
+            ]
+        },
+        "components/bootstrap/tooltip.js": {
+            "uri": "/components/bootstrap/tooltip.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/tooltip"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/transition.js"
+            ]
+        },
+        "components/bootstrap/popover.js": {
+            "uri": "/components/bootstrap/popover.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/popover"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/tooltip.js"
+            ]
+        },
+        "components/bootstrap/scrollspy.js": {
+            "uri": "/components/bootstrap/scrollspy.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/scrollspy"
+            },
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        },
+        "components/bootstrap/tab.js": {
+            "uri": "/components/bootstrap/tab.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/tab"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/transition.js"
+            ]
+        },
+        "components/bootstrap/affix.js": {
+            "uri": "/components/bootstrap/affix.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/affix"
+            },
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        },
+        "components/bootstrap/transition.js": {
+            "uri": "/components/bootstrap/transition.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/transition"
+            },
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        }
+    },
+    "pkg": {}
+}
