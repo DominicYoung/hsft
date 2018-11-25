@@ -69,7 +69,7 @@
 
     <div class="copyright">
 
-        法律信息| © {{date('Y',time())}} Huntsort Technology (Shenzhen) Co., Ltd. 深圳市汉斯福特科技有限公司 版权所有. <a href="http://www.miitbeian.gov.cn/">备案号：粤ICP备15097236号</a>
+        法律信息| © {{date('Y',time())}} Huntsort Technology (Shenzhen) Co., Ltd. 深圳市汉斯福特科技有限公司 版权所有. <a href="http://www.miitbeian.gov.cn/" style="color:white;"  target="_blank">备案号：粤ICP备15097236号</a>
      </div>
 </div>
 </footer>@section("fis_resource")@parent @require('widget/layout/Home/footer.blade.php')@stop
